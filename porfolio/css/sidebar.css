@@ -1,0 +1,59 @@
+
+
+
+.sidebar {
+  position: fixed;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-family: Acme, Arial;
+  width: 100px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 200px;
+  cursor: pointer;
+  border-left-style: solid;
+  border-color: black;
+  border-width: 5px;
+  
+}
+.sidebar div{
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-me{
+  min-height: 80px;
+}
+.home:hover,
+.about-me:hover,
+.portfolio:hover,
+.contact:hover{
+  color:rgb(61, 61, 61) ;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgb(201, 201, 201);
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.home:active,
+.about-me:active,
+.portfolio:active,
+.contact:active{
+  color:rgb(61, 61, 61) ;
+  background-color: rgba(255, 255, 255, 0.89);
+  border-color: rgb(201, 201, 201);
+  border-width: 1px;
+}
+.burger-menu {
+  height: 50px;
+  margin-top: 50px;
+}
