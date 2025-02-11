@@ -1,7 +1,5 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -10,6 +8,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { DotPattern } from "@/components/magicui/dot-pattern";
 import { cn } from "@/lib/utils";
+import Testimonials from "@/components/testimonials";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -51,6 +50,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -61,6 +61,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -103,6 +104,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section id="services">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -136,6 +138,8 @@ export default function Page() {
           </div> */}
         </div>
       </section>
+
+      <Testimonials />
 
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
