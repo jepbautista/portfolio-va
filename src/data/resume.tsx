@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, HandshakeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jeffrey Bautista",
@@ -21,7 +21,10 @@ export const DATA = {
     "Postgres",
     "Docker",
   ],
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/#services", icon: HandshakeIcon, label: "Services" },
+  ],
   contact: {
     email: "jeffreybautista1209@gmail.com",
     tel: "(+63) 910 3042 684",
