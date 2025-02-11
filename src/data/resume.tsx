@@ -60,12 +60,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Pangasinnan State University",
+      school: "Pangasinan State University",
       href: "https://main.psu.edu.ph/",
       degree: "Bachelor of Science in Computer Science",
       logoUrl: "/psu_logo.png",
       start: "2009",
       end: "2013",
+    },
+    {
+      school: "Udemy",
+      href: "https://www.udemy.com/",
+      degree: "Photoshop Master Course",
+      logoUrl: "/udemy_logo.png",
+      start: "-",
+      end: "-",
     },
   ],
   projects: [
@@ -194,40 +202,28 @@ export const DATA = {
   ],
   testimonials: [
     {
-      name: "Jack",
+      name: "Testimonial 1",
       username: "@jack",
-      body: "I've never seen anything like this before. It's amazing. I love it.",
+      body: "lorem ipsum dolor set amit",
       img: "https://avatar.vercel.sh/jack",
     },
     {
-      name: "Jill",
+      name: "Testimonial 2",
       username: "@jill",
       body: "I don't know what to say. I'm speechless. This is amazing.",
       img: "https://avatar.vercel.sh/jill",
     },
     {
-      name: "John",
+      name: "Testimonial 3",
       username: "@john",
       body: "I'm at a loss for words. This is amazing. I love it.",
       img: "https://avatar.vercel.sh/john",
     },
     {
-      name: "Jane",
+      name: "Testimonial 4",
       username: "@jane",
       body: "I'm at a loss for words. This is amazing. I love it.",
       img: "https://avatar.vercel.sh/jane",
-    },
-    {
-      name: "Jenny",
-      username: "@jenny",
-      body: "I'm at a loss for words. This is amazing. I love it.",
-      img: "https://avatar.vercel.sh/jenny",
-    },
-    {
-      name: "James",
-      username: "@james",
-      body: "I'm at a loss for words. This is amazing. I love it.",
-      img: "https://avatar.vercel.sh/james",
     },
   ],
 } as const;
