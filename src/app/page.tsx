@@ -156,8 +156,10 @@ export default function Page() {
                   dates={service.dates}
                   tags={service.technologies}
                   image={service.image}
-                  video={service.video}
-                  links={service.links}
+                  // @ts-expect-error
+                  video={service?.video}
+                  // @ts-expect-error
+                  links={service?.links}
                 />
               </BlurFade>
             ))}
