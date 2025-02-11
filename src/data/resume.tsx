@@ -90,6 +90,19 @@ export const DATA = {
       ],
       image: "/amazon-pic.jpg",
     },
+    {
+      title: "Web Dev",
+      href: "#",
+      active: true,
+      description:
+        "Specializing in listing health, revenue operations, and PPC management, I ensure Amazon accounts remain competitive, compliant, and profitable.",
+      technologies: [
+        "Listing Health & Optimization",
+        "Revenue & Buy Box Strategy",
+        "Account Health & Compliance",
+      ],
+      image: "/amazon-pic.jpg",
+    },
   ],
   testimonials: [
     {
