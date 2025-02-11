@@ -192,4 +192,42 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
+  testimonials: [
+    {
+      name: "Jack",
+      username: "@jack",
+      body: "I've never seen anything like this before. It's amazing. I love it.",
+      img: "https://avatar.vercel.sh/jack",
+    },
+    {
+      name: "Jill",
+      username: "@jill",
+      body: "I don't know what to say. I'm speechless. This is amazing.",
+      img: "https://avatar.vercel.sh/jill",
+    },
+    {
+      name: "John",
+      username: "@john",
+      body: "I'm at a loss for words. This is amazing. I love it.",
+      img: "https://avatar.vercel.sh/john",
+    },
+    {
+      name: "Jane",
+      username: "@jane",
+      body: "I'm at a loss for words. This is amazing. I love it.",
+      img: "https://avatar.vercel.sh/jane",
+    },
+    {
+      name: "Jenny",
+      username: "@jenny",
+      body: "I'm at a loss for words. This is amazing. I love it.",
+      img: "https://avatar.vercel.sh/jenny",
+    },
+    {
+      name: "James",
+      username: "@james",
+      body: "I'm at a loss for words. This is amazing. I love it.",
+      img: "https://avatar.vercel.sh/james",
+    },
+  ],
 } as const;
