@@ -153,11 +153,14 @@ export default function Page() {
                   key={service.title}
                   title={service.title}
                   description={service.description}
+                  // @ts-expect-error
                   dates={service.dates}
                   tags={service.technologies}
                   image={service.image}
-                  video={service.video}
-                  links={service.links}
+                  // @ts-expect-error
+                  video={service?.video}
+                  // @ts-expect-error
+                  links={service?.links}
                 />
               </BlurFade>
             ))}

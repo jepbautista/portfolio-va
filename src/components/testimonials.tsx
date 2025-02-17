@@ -7,9 +7,6 @@ const BLUR_FADE_DELAY = 0.04;
 
 const reviews = DATA.testimonials;
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
-
 const ReviewCard = ({
   img,
   name,
@@ -62,12 +59,7 @@ export default function Testimonials() {
 
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
         <Marquee pauseOnHover className="[--duration:20s]">
-          {firstRow.map((review) => (
-            <ReviewCard key={review.username} {...review} />
-          ))}
-        </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
-          {secondRow.map((review) => (
+          {reviews.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
