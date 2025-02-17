@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Binmaley,+Pangasinan",
   description: "A freelance E-Commerce Specialist | Virtual Assistant",
   summary:
-    "I assist my clients with a variety of administrative tasks, including data entry, transcription, research, web design, basic graphic design, copywriting, and social media advertising, among other services. I treat every client as a valuable business partner and focus on ensuring their satisfaction. Quality is my priority, and I am open to undergoing training to learn new skills if needed for long-term collaboration. If you're struggling to manage your time, I can help lighten your workload so you can concentrate on your core business. You don't have to handle all the tasks by yourself.",
+    "I offer a range of professional services to help businesses grow and streamline their operations. As an Amazon FBA Specialist, I optimize product listings, manage inventory, troubleshoot account issues, and run PPC campaigns to enhance visibility and boost sales. My web development services focus on creating responsive, SEO-friendly, and visually appealing websites tailored to your business needs for an engaging user experience. I also provide professional photo and video editing, including color correction, retouching, background removal, transitions, and dynamic effects to create polished, captivating content. Additionally, I offer administrative support, managing daily tasks such as email and calendar management, data entry, document preparation, and file organization to improve efficiency and productivity. I am dedicated to delivering high-quality, reliable services tailored to meet your business goals.",
   avatarUrl: "/portfolio-va/me.jpg",
   skills: [
     "Amazon FBA",
@@ -64,7 +64,7 @@ export const DATA = {
       start: "May 2021",
       end: "Present",
       description:
-        "I managed product listing health and optimization, ensuring compliance by resolving search suppression, pricing errors, and stranded inventory. I improved visibility by uploading high-quality images, using strategic keywords, and conducting audits. In revenue operations, I optimized pricing strategies, reviewed margins and storage, and tracked cases for efficient resolution. I monitored account health, addressed violations, removed negative feedback, and maintained a strong seller rating. I also managed PPC campaigns, optimizing bids for better ROI. Additionally, I contributed to product listing creation with Akeneo, conducted market research for competitive insights, and generated reports to inform strategic decisions.",
+        "I managed listing health by resolving search suppression, pricing errors, and stranded inventory to reduce downtime. Optimized product listings with high-quality images and strategic keywords to boost visibility and sales. Addressed buy box issues, enhanced pricing strategies, and identified cost-saving opportunities. Monitored account health metrics and compliance, maintaining strong seller ratings. Improved PPC campaign ROI through bid optimization and performance analysis. Created product listings, conducted market analysis, and delivered actionable insights to stakeholders.",
     },
   ],
   education: [
@@ -91,14 +91,14 @@ export const DATA = {
       href: "#",
       active: true,
       description:
-        "Specializing in listing health, revenue operations, and PPC management, I ensure Amazon accounts remain competitive, compliant, and profitable.",
+        "Optimize and manage your Amazon FBA business to boost sales and streamline operations. Services include product listing creation and optimization, keyword research, inventory management, buy box strategy, and pricing analysis. I handle stranded inventory, suppressed listings, account health monitoring, and compliance to ensure smooth account performance. Additionally, I offer PPC campaign management and actionable insights to enhance product visibility and profitability.",
       technologies: [
         "Listing Health & Optimization",
         "Revenue & Buy Box Strategy",
         "Account Health & Compliance",
+        "Product Listing",
         "PPC Campaign Setup & Management",
         "Inventory Management",
-        "Product Listing",
         "Keyword Research",
         "Product Sourcing",
       ],
@@ -109,13 +109,13 @@ export const DATA = {
       href: "#",
       active: true,
       description:
-        "I have a foundational background in web development to build functional and visually appealing websites. While my expertise is at a basic to intermediate level, I take pride in manually coding my portfolio website, showcasing my ability to structure, style, and optimize web pages from the ground up.",
+        "Design and develop responsive, user-friendly websites tailored to your business needs. Services include front-end development, custom coding, website optimization, and mobile compatibility. I ensure fast-loading, SEO-friendly, and visually appealing websites for an engaging user experience. Whether building a portfolio, business site, or landing page, I deliver functional and aesthetically pleasing solutions.",
       technologies: [
         "HTML",
         "CSS",
         "Java Script",
       ],
-      image: "/portfolio-va/web-dev-img.jpg",
+      image: "/portfolio-va/wev-dev-img.jpg",
     },
 
     {
@@ -123,12 +123,29 @@ export const DATA = {
       href: "#",
       active: true,
       description:
-        "I can help you to create advertisement and creative campaign for your products.",
+        "Transform raw photos and footage into polished, visually captivating content. Services include color correction, retouching, background removal, and photo enhancements. For video editing, I offer cutting, transitions, audio synchronization, and dynamic effects to create engaging, high-quality videos. With attention to detail and creative storytelling, I help bring your vision to life.",
       technologies: [
         "Photoshop",
         "Premiere Pro",
       ],
-      image: "https://www.youtube.com/embed/wxP2HjREJ8E",
+      image: "/portfolio-va/ps-pro-img.jpg",
+    },
+
+    {
+      title: "Administrative Support",
+      href: "#",
+      active: true,
+      description:
+        "Efficiently manage administrative tasks to streamline business operations. Services include calendar and email management, data entry, document preparation, travel coordination, and file organization. I ensure timely communication, accurate record-keeping, and seamless task handling to support your business needs and enhance overall productivity.",
+      technologies: [
+        "Microsoft Excel",
+        "Microsoft Teams",
+        "Notion",
+        "Asana",
+        "Canva",
+        "Quickbooks",
+      ],
+      image: "/portfolio-va/admin-support-img.jpg",
     },
 
 
