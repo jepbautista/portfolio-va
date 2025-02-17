@@ -10,7 +10,7 @@ export const DATA = {
   description: "A freelance E-Commerce Specialist | Virtual Assistant",
   summary:
     "I assist my clients with a variety of administrative tasks, including data entry, transcription, research, web design, basic graphic design, copywriting, and social media advertising, among other services. I treat every client as a valuable business partner and focus on ensuring their satisfaction. Quality is my priority, and I am open to undergoing training to learn new skills if needed for long-term collaboration. If you're struggling to manage your time, I can help lighten your workload so you can concentrate on your core business. You don't have to handle all the tasks by yourself.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/portfolio-va/me.jpg",
   skills: [
     "Amazon FBA",
     "Amazon PPC",
@@ -72,7 +72,7 @@ export const DATA = {
       school: "Pangasinan State University",
       href: "https://main.psu.edu.ph/",
       degree: "Bachelor of Science in Computer Science",
-      logoUrl: "/psu_logo.png",
+      logoUrl: "/portfolio-va/psu_logo.png",
       start: "2009",
       end: "2013",
     },
@@ -80,7 +80,7 @@ export const DATA = {
       school: "Udemy",
       href: "https://www.udemy.com/",
       degree: "Photoshop Master Course",
-      logoUrl: "/udemy_logo.png",
+      logoUrl: "/portfolio-va/udemy_logo.png",
       start: "-",
       end: "-",
     },
@@ -97,7 +97,7 @@ export const DATA = {
         "Revenue & Buy Box Strategy",
         "Account Health & Compliance",
       ],
-      image: "/amazon-pic.jpg",
+      image: "/portfolio-va/amazon-pic.jpg",
     },
     {
       title: "Web Dev",
@@ -110,7 +110,7 @@ export const DATA = {
         "Revenue & Buy Box Strategy",
         "Account Health & Compliance",
       ],
-      image: "/amazon-pic.jpg",
+      image: "/portfolio-va/amazon-pic.jpg",
     },
   ],
   testimonials: [
