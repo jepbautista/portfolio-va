@@ -84,6 +84,14 @@ export const DATA = {
       start: "-",
       end: "-",
     },
+    {
+      school: "QuickPro Online Professional Academy",
+      href: "https://theonepercentfreelancer.com/",
+      degree: "Amazon FBA, Bookkeeping, Web Development, Copywiting",
+      logoUrl: "/portfolio-va/quickpro_logo.png",
+      start: "-",
+      end: "-",
+    },
   ],
   services: [
     {
@@ -121,7 +129,7 @@ export const DATA = {
       ],
       image: "/portfolio-va/admin-support-img.jpg",
     },
-    
+
     {
       title: "Photo and Video Editing",
       href: "#",
