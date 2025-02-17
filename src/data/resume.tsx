@@ -146,7 +146,7 @@ export const DATA = {
       active: true,
       description:
         "Design and develop responsive, user-friendly websites tailored to your business needs. Services include front-end development, custom coding, website optimization, and mobile compatibility. I ensure fast-loading, SEO-friendly, and visually appealing websites for an engaging user experience. Whether building a portfolio, business site, or landing page, I deliver functional and aesthetically pleasing solutions.",
-      technologies: ["HTML", "CSS", "Java Script"],
+      technologies: ["HTML", "CSS", "Javascript"],
       image: "/portfolio-va/wev-dev-img.webp",
     },
   ],
