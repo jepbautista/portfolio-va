@@ -11,8 +11,6 @@ import { cn } from "@/lib/utils";
 import Testimonials from "@/components/testimonials";
 import { ProjectCard } from "@/components/project-card";
 
-console.log("data", DATA);
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
