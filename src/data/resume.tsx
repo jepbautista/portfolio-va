@@ -104,32 +104,6 @@ export const DATA = {
       ],
       image: "/portfolio-va/amazon-pic.jpg",
     },
-    {
-      title: "Web Development",
-      href: "#",
-      active: true,
-      description:
-        "Design and develop responsive, user-friendly websites tailored to your business needs. Services include front-end development, custom coding, website optimization, and mobile compatibility. I ensure fast-loading, SEO-friendly, and visually appealing websites for an engaging user experience. Whether building a portfolio, business site, or landing page, I deliver functional and aesthetically pleasing solutions.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Java Script",
-      ],
-      image: "/portfolio-va/wev-dev-img.jpg",
-    },
-
-    {
-      title: "Photo and Video Editing",
-      href: "#",
-      active: true,
-      description:
-        "Transform raw photos and footage into polished, visually captivating content. Services include color correction, retouching, background removal, and photo enhancements. For video editing, I offer cutting, transitions, audio synchronization, and dynamic effects to create engaging, high-quality videos. With attention to detail and creative storytelling, I help bring your vision to life.",
-      technologies: [
-        "Photoshop",
-        "Premiere Pro",
-      ],
-      image: "/portfolio-va/ps-pro-img.jpg",
-    },
 
     {
       title: "Administrative Support",
@@ -147,6 +121,36 @@ export const DATA = {
       ],
       image: "/portfolio-va/admin-support-img.jpg",
     },
+    
+    {
+      title: "Photo and Video Editing",
+      href: "#",
+      active: true,
+      description:
+        "Transform raw photos and footage into polished, visually captivating content. Services include color correction, retouching, background removal, and photo enhancements. For video editing, I offer cutting, transitions, audio synchronization, and dynamic effects to create engaging, high-quality videos. With attention to detail and creative storytelling, I help bring your vision to life.",
+      technologies: [
+        "Photoshop",
+        "Premiere Pro",
+      ],
+      image: "/portfolio-va/ps-pro-img.jpg",
+    },
+
+    {
+      title: "Web Development",
+      href: "#",
+      active: true,
+      description:
+        "Design and develop responsive, user-friendly websites tailored to your business needs. Services include front-end development, custom coding, website optimization, and mobile compatibility. I ensure fast-loading, SEO-friendly, and visually appealing websites for an engaging user experience. Whether building a portfolio, business site, or landing page, I deliver functional and aesthetically pleasing solutions.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Java Script",
+      ],
+      image: "/portfolio-va/wev-dev-img.jpg",
+    },
+
+
+
 
 
   ],
@@ -166,7 +170,7 @@ export const DATA = {
     {
       name: "Selcuk Cullu",
       username: "@selcuk",
-      body: "I am pleased to write a testimonial for Jeffrey, who has been an invaluable member of our team. We have been working together for the past three months, and during this time, I have been continually impressed by his positive attitude, dedication, and eagerness to learn. Jeffrey's expertise in Amazon listing and campaign management has been a significant asset to our organization. His ability to adapt and manage processes with ease has streamlined our operations and greatly improved our online presence. He approaches every task with enthusiasm and is always willing to go the extra mile to ensure success. In summary, Jeffrey is a highly skilled professional whose dedication, expertise, and supportive nature make him an exceptional colleague. I am confident that he will continue to excel in",
+      body: "I am pleased to write a testimonial for Jeffrey, who has been an invaluable member of our team. We have been working together for the past three months, and during this time, I have been continually impressed by his positive attitude, dedication, and eagerness to learn. Jeffrey's expertise in Amazon listing and campaign management has been a significant asset to our organization. His ability to adapt and manage processes with ease has streamlined our operations and greatly improved our online presence. He approaches every task with enthusiasm and is always willing to go the extra mile to ensure success. In summary, Jeffrey is a highly skilled professional whose dedication, expertise, and supportive nature make him an exceptional colleague. I am confident that he will continue to excel in.",
       img: "/portfolio-va/selcuk-img.jpg",
     },
     {
