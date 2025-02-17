@@ -96,47 +96,67 @@ export const DATA = {
         "Listing Health & Optimization",
         "Revenue & Buy Box Strategy",
         "Account Health & Compliance",
+        "PPC Campaign Setup & Management",
+        "Inventory Management",
+        "Product Listing",
+        "Keyword Research",
+        "Product Sourcing",
       ],
       image: "/portfolio-va/amazon-pic.jpg",
     },
     {
-      title: "Web Dev",
+      title: "Web Development",
       href: "#",
       active: true,
       description:
-        "Specializing in listing health, revenue operations, and PPC management, I ensure Amazon accounts remain competitive, compliant, and profitable.",
+        "I have a foundational background in web development to build functional and visually appealing websites. While my expertise is at a basic to intermediate level, I take pride in manually coding my portfolio website, showcasing my ability to structure, style, and optimize web pages from the ground up.",
       technologies: [
-        "Listing Health & Optimization",
-        "Revenue & Buy Box Strategy",
-        "Account Health & Compliance",
+        "HTML",
+        "CSS",
+        "Java Script",
       ],
-      image: "/portfolio-va/amazon-pic.jpg",
+      image: "/portfolio-va/web-dev-img.jpg",
     },
+
+    {
+      title: "Photo and Video Editing",
+      href: "#",
+      active: true,
+      description:
+        "I can help you to create advertisement and creative campaign for your products.",
+      technologies: [
+        "Photoshop",
+        "Premiere Pro",
+      ],
+      image: "https://www.youtube.com/embed/wxP2HjREJ8E",
+    },
+
+
   ],
   testimonials: [
     {
       name: "Maria Crisel Robles",
       username: "@crisel",
       body: "Jeffrey is one of the most skilled RevOps professionals at SellerX. He’s always ready to help and answer any questions. Collaborating with him is effortless, as he manages tasks independently while ensuring the brand’s needs are met and the team is well-supported.",
-      img: "https://www.linkedin.com/in/maria-crisel-robles-4565081a0/overlay/photo/",
+      img: "/portfolio-va/crisel-img.jpg",
     },
     {
       name: "Charles Phillips",
       username: "@charles",
       body: "He has an excellent eye for detail, and a strong understanding of Amazon marketplace, pricing dynamics, buy box management. He also has shown strong commercial understanding of P/L management often producing detailed and important reports on product profitability and providing suggested actions. He has a great knowledge of Amazon and Ecom and is a great asset to any team.",
-      img: "https://www.linkedin.com/in/charles-phillips-61a66b7a/overlay/photo/",
+      img: "/portfolio-va/charles-img.jpg",
     },
     {
       name: "Selcuk Cullu",
       username: "@selcuk",
       body: "I am pleased to write a testimonial for Jeffrey, who has been an invaluable member of our team. We have been working together for the past three months, and during this time, I have been continually impressed by his positive attitude, dedication, and eagerness to learn. Jeffrey's expertise in Amazon listing and campaign management has been a significant asset to our organization. His ability to adapt and manage processes with ease has streamlined our operations and greatly improved our online presence. He approaches every task with enthusiasm and is always willing to go the extra mile to ensure success. In summary, Jeffrey is a highly skilled professional whose dedication, expertise, and supportive nature make him an exceptional colleague. I am confident that he will continue to excel in",
-      img: "https://www.linkedin.com/in/scullu/overlay/photo/",
+      img: "/portfolio-va/selcuk-img.jpg",
     },
     {
       name: "Mariana Lemos",
       username: "@mariana",
       body: "I've had the pleasure of collaborating with Jeffrey on numerous projects, and I can confidently say that he is a standout performer in every aspect. His dedication to delivering outstanding results sets him apart from the crowd. Jeffrey's expertise in the Amazon Seller Center is truly remarkable. From meticulous listing review and optimization to strategic PPC management, he consistently drives significant improvements in our sales performance. His proficiency in handling image and attribute uploads has streamlined our processes and enhanced our product visibility on the platform. Beyond his technical skills, Jeffrey's interpersonal abilities and teamwork shine brightly. He effortlessly collaborates with colleagues, demonstrating excellent communication skills.",
-      img: "https://www.linkedin.com/in/mariana-belotti-lemos/overlay/photo/",
+      img: "/portfolio-va/mariana-img.jpg",
     },
   ],
 } as const;
