@@ -1,5 +1,7 @@
 # Portfolio
 
+[Porfolio](https://jepbautista.github.io/portfolio-va/)
+
 Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
 # Getting Started Locally
