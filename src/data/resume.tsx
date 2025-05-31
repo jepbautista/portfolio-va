@@ -43,7 +43,7 @@ export const DATA = {
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/jep.bautista/?hl=en",
+        url: "https://www.linkedin.com/in/bautistajeffrey/",
         icon: Icons.linkedin,
         navbar: false,
       },
